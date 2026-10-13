@@ -1,0 +1,5 @@
+import type {Metadata} from 'next';
+import Header from '@/components/Header';
+import ContactForm from '@/components/ContactForm';
+export const metadata:Metadata={title:'Contact | Gioele Friggia',description:'Get in touch with Gioele Friggia for web development projects, job opportunities and collaborations.'};
+export default function ContactPage(){return <main className="gf-contact-page"><Header/><section className="gf-contact-section"><div className="gf-contact-heading"><p className="gf-contact-eyebrow">04 / GET IN TOUCH</p><h1>LET'S MAKE<br/><em>IT HAPPEN.</em></h1><p>Have an idea, a project or an opportunity? Tell me about it. I’d love to hear from you.</p><div className="gf-contact-email"><span>OR REACH ME DIRECTLY</span><a href="mailto:giofriggia@gmail.com">giofriggia@gmail.com ↗</a></div><div className="gf-contact-location">BASED IN LIMERICK, IRELAND <span>↗</span></div></div><div className="gf-contact-panel"><div className="gf-contact-panel-heading"><span>START A CONVERSATION</span><span>✳</span></div><ContactForm/></div></section><footer className="gf-contact-footer"><span>© 2026 GIOELE FRIGGIA</span><a href="/">BACK TO HOME ↗</a></footer></main>}

@@ -24,5 +24,5 @@ export default function ProfilePage(){return <main className="profile-page"><Hea
   <div className="about-gioele-portrait"><img src="/images/profile/gioele-natural-shirt.webp" alt="Portrait of Gioele Friggia wearing a light shirt" loading="lazy"/><span className="about-gioele-side-note">THE PERSON<br/>BEHIND THE WORK</span></div>
 </div>
 </section>
-<footer id="contact"><p>Have a problem worth solving?</p><a href="/contact">Let’s build it together ↗</a><a className="contact-email" href="/contact" aria-label="Email Gioele Friggia">giofriggia@gmail.com ↗</a><span>© 2026 Gioele Friggia</span></footer>
+<footer id="contact"><p>Have a problem worth solving?</p><a href="/contact">Let’s build it together ↗</a><a className="contact-email" href="mailto:giofriggia@gmail.com" aria-label="Email Gioele Friggia">giofriggia@gmail.com ↗</a><span>© 2026 Gioele Friggia</span></footer>
 </main>}

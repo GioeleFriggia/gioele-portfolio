@@ -387,3 +387,11 @@ button,input,select,textarea{max-width:100%}
   .gf-contact-section{padding-top:145px}
 }
 @media(prefers-reduced-motion:reduce){.gf-menu-toggle span{transition:none}}
+
+/* Portfolio polish: prevent Pinna Corse mockup text clipping at responsive sizes. */
+.pinna-monitor-image span{font-size:clamp(17px,3.15vw,48px);max-width:100%;line-height:1.05;overflow-wrap:normal;text-wrap:balance}
+.pinna-monitor-image small{font-size:clamp(9px,1.4vw,18px);line-height:1.45;max-width:100%;text-wrap:balance}
+.pinna-monitor-image{min-width:0;overflow:hidden}
+.pinna-mobile-image span{max-width:100%;overflow-wrap:break-word}
+@media(max-width:700px){.pinna-screens{min-height:unset;margin:38px auto 50px;padding:0 5% 12%;box-sizing:border-box}.pinna-monitor{width:100%;border-width:6px;border-bottom-width:10px}.pinna-monitor-top span{font-size:clamp(6px,1.5vw,9px);letter-spacing:.08em}.pinna-monitor-image{padding:6%;aspect-ratio:16/10}.pinna-monitor-image span{font-size:clamp(13px,3.2vw,23px);line-height:1.1}.pinna-monitor-image small{font-size:clamp(7px,1.5vw,11px);letter-spacing:.04em}.pinna-mobile{width:24%;right:0;bottom:0;border-width:5px;border-radius:19px}.pinna-mobile-image span{font-size:clamp(10px,2.9vw,17px)}.pinna-mobile-image small{font-size:clamp(6px,1.5vw,10px)}}
+@media(max-width:390px){.pinna-monitor-image span{font-size:12px}.pinna-monitor-image small{font-size:7px}.pinna-mobile{width:25%}}

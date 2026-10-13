@@ -10,5 +10,5 @@ export default function Home(){return <main><Header/>
 {projects.map((p,i)=><article className="project-row" key={p.slug} style={{background:p.dark,color:p.accent}}><Link href={`/project/${p.slug}`} className="project-link"><div className="project-top"><span>{p.index}</span><h2>{p.title.split('\n').map(x=><span key={x}>{x}</span>)}</h2><span className="arrow">↗</span></div><ProjectVisual accent={p.accent} title={p.title} variant={i}/><div className="project-bottom"><p>{p.kicker}</p><p>{p.stack.join(' · ')}</p><p>{p.year}</p></div></Link></article>)}
 </section>
 
-<footer id="contact"><p>Have a problem worth solving?</p><a href="/contact">Let’s build it together ↗</a><a className="contact-email" href="/contact" aria-label="Email Gioele Friggia">giofriggia@gmail.com ↗</a><span>© 2026 Gioele Friggia</span></footer>
+<footer id="contact"><p>Have a problem worth solving?</p><a href="/contact">Let’s build it together ↗</a><a className="contact-email" href="mailto:giofriggia@gmail.com" aria-label="Email Gioele Friggia">giofriggia@gmail.com ↗</a><span>© 2026 Gioele Friggia</span></footer>
 </main>}

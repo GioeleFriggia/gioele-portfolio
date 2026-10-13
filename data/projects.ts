@@ -18,7 +18,7 @@ export const projects: Project[] = [
   },
   {
     slug:'cartly',index:'02',title:'Cartly\nShopping Lists',kicker:'Shopping together, without the back-and-forth.',year:'2026',
-    category:'Full-stack · PWA',role:'Design & development',status:'Live project',
+    category:'Full-stack · PWA',role:'Design & development',status:'Portfolio demonstration',
     stack:['React','Vite','Express','Prisma','PostgreSQL','PWA'],
     description:'A shared shopping-list web app with user accounts, collaborative lists and an installable mobile-friendly experience.',
     accent:'#b8f3cb',dark:'#102019',
